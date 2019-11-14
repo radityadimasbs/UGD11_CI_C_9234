@@ -18,7 +18,7 @@ Class Branches extends REST_Controller{
             array_push($rule,[                     
                 'field' => 'name',              
                 'label' => 'name',             
-                'rules' => 'required|aplha'             
+                'rules' => 'required|alpha'             
             ],                 
             [   
                 'field' => 'phoneNumber',   
@@ -32,7 +32,7 @@ Class Branches extends REST_Controller{
             [  
                 'field' => 'name',       
                 'label' => 'name',        
-                'rules' => 'required|aplha' 
+                'rules' => 'required|alpha' 
             ]  
         ); 
     }
